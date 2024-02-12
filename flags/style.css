@@ -56,11 +56,11 @@ li {
 .palau div.second {
     background: yellow;
     border-radius: 50%;
-    width: 300px;
-    height: 300px;
+    width: 22vw;
+    height: 45vh;
     position: fixed;
-    top: 150px;
-    left: 375px;
+    top: 12vw;
+    left:50vh;
 }
 
 /* madagascar */
@@ -127,17 +127,17 @@ li {
 .sweden div.second{
 	background-color: #FFCD00;
 	height: 100vh;
-	width: 150px;
+	width: 11vw;
 	position: fixed;
 	top: 0;
-	right: 750px;
+	left: 30vw;
 }
 .sweden div.third{
 	background-color: #FFCD00;
-	height: 150px;
+	height: 20vh;
 	width: 100vw;
 	position: fixed;
-	top: 225px;
+	top: 40vh;
 	right: 0;
 }
 
@@ -153,26 +153,26 @@ li {
 }
 .tonga div.second {
 	background-color: #ffffff;
-	height: 250px;
-	width: 450px;
+	height: 42vh;
+	width: 35vw;
 	position: fixed;
 	top: 0;
 	left: 0;
 }
 .tonga div.third {
 	background-color: #c10000;
-	height: 175px;
-	width: 60px;
+	height: 30vh;
+	width: 5vw;
 	position: fixed;
-	top: 30px;
-	left: 165px;
+	top: 5vh;
+	left: 13vw;
 }
 .tonga div.fourth {
 	background-color: #c10000;
-	height: 60px;
-	width: 175px;
+	height: 10vh;
+	width: 15vw;
 	position: fixed;
-	top: 87px;
-	left: 108px;
+	top: 15vh;
+	left: 8vw;
 }
 }
