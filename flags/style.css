@@ -94,21 +94,20 @@ li {
 	height: 100px;
 }
 .belgium div.first {
-	background-color: #000000;
+	background-color: #FDDA24;
 	height: 100vh;
 }
 .belgium div.second {
-	background-color: #FDDA24;
+	background-color: #000000;
 	height: 100vh;
-	width: 450px;
+	width: 32vw;
 	position: fixed;
 	top: 0;
-	left: 400px;
 }
 .belgium div.third {
 	background-color: #EF3340;
 	height: 100vh;
-	width: 430px;
+	width: 32vw;
 	position: fixed;
 	top: 0;
 	right: 0;
