@@ -40,6 +40,7 @@ li {
 	text-align: left;
 	position: absolute;
 	top: 0vh;
+	left: 2vw;
 }
 .november div.third {
 	background-color: #8d8688;
@@ -110,6 +111,7 @@ li {
 	font-size: 36px;
 	text-align: left;
 	position: fixed;
+	left: 2vw;
 	top: 60vh;
 
 	
