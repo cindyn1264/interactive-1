@@ -40,7 +40,7 @@ li {
 	text-align: left;
 	position: absolute;
 	top: 0vh;
-	left: 2vw;
+	left: 0;
 }
 .november div.third {
 	background-color: #8d8688;
@@ -48,7 +48,7 @@ li {
 	height: 0;
 	padding-bottom: 5%;
 	position: fixed;
-	top: 25vh;
+	top: 15vh;
 	left: 50vw;
 }
 .november div.fourth {
@@ -57,7 +57,7 @@ li {
 	height: 0;
 	padding-bottom: 5%;
 	position: fixed;
-	top: 50vh;
+	top: 40vh;
 	left: 50vw;
 }
 .november div.fifth {
@@ -66,7 +66,7 @@ li {
 	height: 0;
 	padding-bottom: 5%;
 	position: fixed;
-	top: 62vh;
+	top: 52vh;
 	left: 50vw;
 }
 .november div.sixth {
@@ -75,7 +75,7 @@ li {
 	height: 0;
 	padding-bottom: 5%;
 	position: fixed;
-	top: 50vh;
+	top: 40vh;
 	left: 30vw;
 }
 .november div.seventh {
@@ -84,7 +84,7 @@ li {
 	height: 0;
 	padding-bottom: 5%;
 	position: fixed;
-	top: 50vh;
+	top: 40vh;
 	left: 35vw;
 }
 .november div.eighth {
@@ -93,7 +93,7 @@ li {
 	height: 0;
 	padding-bottom: 5%;
 	position: fixed;
-	top: 50vh;
+	top: 40vh;
 	left: 65vw;
 
 }
@@ -103,7 +103,7 @@ li {
 	height: 0;
 	padding-bottom: 5%;
 	position: fixed;
-	top: 50vh;
+	top: 40vh;
 	left: 75vw;
 }
 .november div.tenth {
@@ -111,10 +111,8 @@ li {
 	font-size: 36px;
 	text-align: left;
 	position: fixed;
-	left: 2vw;
+	left: 0;
 	top: 60vh;
-
-	
 }
 
 /* may */
