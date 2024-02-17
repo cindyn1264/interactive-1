@@ -35,7 +35,7 @@ li {
 	width: 100vw;
 }
 .november div.second {
-	font-family: sans-serif;
+	font-family: helvetica;
 	font-size: 36px;
 	text-align: left;
 	position: absolute;
@@ -107,14 +107,69 @@ li {
 	left: 70vw;
 }
 .november div.tenth {
-	font-family: sans-serif;
-	font-size: 36px;
+	font-family: helvetica;
+	font-size: 40px;
 	text-align: left;
 	position: fixed;
 	left: 0;
 	top: 60vh;
 }
-
+.november div.eleventh {
+	font-family: helvetica;
+	font-size: 12px;
+	text-align: left;
+	position: fixed;
+	top: 58vh;
+	left: 82vw;
+}
+.november div.twelfth {
+	font-family: helvetica;
+	font-size: 14px;
+	text-align: left;
+	position: fixed;
+	top: 57.5vh;
+	left: 72vw;
+}
+.november div.thirteenth {
+	font-family: helvetica;
+	font-size: 14px;
+	text-align: left;
+	position: fixed;
+	top: 71.5vh;
+	left: 72vw;
+}
+.november div.fourteenth {
+	font-family: helvetica;
+	font-size: 14px;
+	text-align: left;
+	position: fixed;
+	top: 76.5vh;
+	left: 72vw;
+}
+.november div.fifteenth {
+	font-family: helvetica;
+	font-size: 14px;
+	text-align: left;
+	position: fixed;
+	top: 79vh;
+	left: 72vw;
+}
+.november div.sixteenth {
+	font-family: helvetica;
+	font-size: 14px;
+	text-align: left;
+	position: fixed;
+	top: 81.5vh;
+	left: 72vw;
+}
+.november div.seventeenth {
+	font-family: helvetica;
+	font-size: 14px;
+	text-align: left;
+	position: fixed;
+	top: 85.5vh;
+	left: 72vw;
+}
 /* may */
 
 
