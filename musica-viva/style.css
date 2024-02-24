@@ -434,3 +434,113 @@ li {
 	top: 96vh;
 	left: 15vw;
 }
+
+/* january */
+.january div {
+	width: 100vw;
+	height: 100vh;
+}
+.january div.first {
+	background-color: #810c39;
+	height: 100vh;
+	width: 100vw;
+}
+.january div.second {
+	font-family: helvetica;
+	color: #69909b;
+	font-size: 75px;
+	text-align: left;
+	position: fixed;
+	top: 20vh;
+	left: 35vw;
+}
+.january div.third {
+	font-family: helvetica;
+	color: #69909b;
+	font-size: 75px;
+	text-align: left;
+	position: fixed;
+	top: 7vh;
+	left: 40.5vw;
+}
+.january div.fourth {
+	font-family: helvetica;
+	color: #69909b;
+	font-size: 75px;
+	text-align: left;
+	position: fixed;
+	top: 32vh;
+	left: 41.5vw;
+}
+.january div.fifth {
+	font-family: helvetica;
+	color: #69909b;
+	font-size: 75px;
+	text-align: left;
+	position: fixed;
+	top: 46vh;
+	left: 42.25vw;
+}
+.january div.sixth {
+	font-family: helvetica;
+	color: #69909b;
+	font-size: 75px;
+	text-align: left;
+	position: fixed;
+	top: 56.5vh;
+	left: 41.5vw;
+}
+.january div.seventh {
+	font-family: helvetica;
+	color: #69909b;
+	font-size: 75px;
+	text-align: left;
+	position: fixed;
+	top: 68vh;
+	left: 41.5vw;
+}
+.january div.eighth {
+	font-family: helvetica;
+	color: #69909b;
+	font-size: 75px;
+	text-align: left;
+	position: fixed;
+	top: 7vh;
+	left: 50.25vw;
+}
+.january div.ninth {
+	font-family: helvetica;
+	color: #69909b;
+	font-size: 75px;
+	text-align: left;
+	position: fixed;
+	top: 32vh;
+	left: 50.25vw;
+}
+.january div.tenth {
+	font-family: helvetica;
+	color: #69909b;
+	font-size: 75px;
+	text-align: left;
+	position: fixed;
+	top: 45vh;
+	left: 50vw;
+}
+.january div.eleventh {
+	font-family: helvetica;
+	color: #69909b;
+	font-size: 75px;
+	text-align: left;
+	position: fixed;
+	top: 45.5vh;
+	left: 37vw;
+}
+.january div.twelfth {
+	font-family: helvetica;
+	color: #69909b;
+	font-size: 75px;
+	text-align: left;
+	position: fixed;
+	top: 45.5vh;
+	left: 45.5vw;
+}
