@@ -361,3 +361,76 @@ li {
 	top: 25vh;
 	right: 18vw;
 }
+
+/*may*/
+
+.may div {
+	width: 100vw;
+	height: 100vh;
+}
+.may div.first {
+	background-color: #59a15f;
+	height: 100vh;
+	width: 100vw;
+}
+.may div.second {
+	font-family: helvetica;
+	color: #fffbe8;
+	font-size: 90px;
+	text-align: center;
+	position: fixed;
+	top: 2vh;
+}
+.may div.third {
+	background-color: #fffbe8;
+	width: 18%;
+	height: 0;
+	padding-bottom: .25%;
+	position: fixed;
+	top: 60vh;
+	left: 42vw;
+}
+.may div.fourth {
+	font-family: helvetica;
+	color: #fffbe8;
+	font-size: 90px;
+	text-align: center;
+	position: fixed;
+	top: 60vh;
+}
+.may div.fifth {
+	font-family: helvetica;
+	color: #163621;
+	font-size: 15px;
+	text-align: left;
+	position: fixed;
+	top: 60vh;
+	left: 15vw;
+}
+.may div.sixth {
+	font-family: helvetica;
+	color: #163621;
+	font-size: 15px;
+	text-align: left;
+	position: fixed;
+	top: 60vh;
+	left: 75vw;
+}
+.may div.seventh {
+	font-family: helvetica;
+	color: #163621;
+	font-size: 5px;
+	text-align: left;
+	position: fixed;
+	top: 96vh;
+	left: 75vw;
+}
+.may div.eighth {
+	font-family: helvetica;
+	color: #163621;
+	font-size: 5px;
+	text-align: left;
+	position: fixed;
+	top: 96vh;
+	left: 15vw;
+}
