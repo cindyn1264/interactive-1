@@ -1,0 +1,112 @@
+body {
+	background-color: white;
+}
+
+/* Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Nerko+One&display=swap');
+
+
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain) */
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/* My own styles*/
+
+body {
+	font-family: helvetica, sans-serif;
+}
+
+.my-google-font{
+  font-family: "Nerko One", cursive;
+  font-weight: 400;
+  font-style: normal;
+}
+
+section {
+	background-color: rgba(255,0,0,0.2);
+	margin: 3em 0;
+}
+
+p{
+	background-color: rgba(255,255,0,0.2);
+	margin-bottom: 1em;
+}
+
+p:last-child {
+	margin-bottom:0;
+}
+
+.flex {
+	display: flex;
+}
+
+.flex-then-wrap-with-gap {
+	display: flex;
+	flex-wrap: wrap;
+	gap: 1em;
+}
+
+.flex-then-wrap-with-gap > div {
+	width: 150px;
+	height: 150px;
+	background-color: rgba(255,0,0,0.2);
+}
+
+.flex-space-between {
+	display: flex;
+	justify-content: space-between;
+}
+
+.grid {
+	display: grid;
+	grid-template-columns: 1fr 2fr 1fr 1fr;
+	gap: 1em;
+}
+
+.grid > div {
+	background-color: rgba(255,0,0,0.2);
+}

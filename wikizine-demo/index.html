@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Layout samples for wikizine articles</title>
+	<link rel="stylesheet" href="style.css">
+</head>
+<body>
+	<p class="my-google-font">This is a paragraph, directly under the body element.</p>
+	<p> Since all of the default HTML styling were removed by CSS reset, there's no default margin around the body element, no default spacing between paragraphs, and no default padding on list items, etc. Also, no bold or italic styles for headings, strongs, or emphasis. This is our clear state to start styling the page.</p>
+
+	<section>
+		<p>This is a paragraph inside a section element. Sections are set to have 3em vertical margins, with 20% red background-color.</p>
+		<p>Paragraphs are set to have 1em bottom margin, except when the paragraph is the last child.</p>
+		<p>The default font-family for this body is set as Helvetica (or generic sans-serif). The browswer is using the local font installed on your machine to show the letters.</p>
+		<p class="my-google-font">This text should appear in Nerko One, using the webfont files hosted on Google Fonts.</p>
+	</section>
+
+	<section>
+		<p>This is a paragraph in the second section. Do you see the 3em spacing between this section and the one above?</p>
+	</section>
+
+	<section class="flex">
+		<div style="background-color: yellow">I am a flex item (a div) inside a section set as dislay:flex. Flex-items display side-by-side within its context.</div>
+		<div style="background-color: lightblue; width: 200px;">A flex item can have a width. It's fine to write css inline as HTML attribute. Just don't over use it. Then it becomes messy.
+		<div style="background-color: lightgreen; align-self; end;">A flex item can be aligned to the bottom of its parent.</div>
+	</section>
+
+	<section class="flex-then-wrap-with-gap">
+			<div>Many flexbox items?</div>
+			<div>You can set them to wrap.</div>
+			<div>Then they flow to the next line...</div>
+			<div>...whenever necessary.</div>
+			<div>Like this.</div>
+			<div>Try changing viewport width.</div>
+			<div>These boxes are also using child combinator selector.</div>
+			<div>See CSS file for more.</div>
+			<div>And the gap (gutter) between boxes is 1em.</div>
+	</section>
+
+	<section class="flex-space-between">
+		<div style="background-color:yellow">Another neat flexbox trick is that you can...</div>
+		<div style="background-color: lightblue">...set the flex items to stay as far away as possible...</div>
+		<div style="background-color: lightgreen">...within their context.</div>
+	</section>
+
+	<section class="flex-space-between">
+		<div>Logo</div>
+		<div>Title</div>
+		<div>Logout</div>
+	</section>
+
+	<section class="grid">
+		<div>This is a section set as display:grid with 4 equal columns.</div>
+		<div>The section's child elements, no matter what they are, will be displayed on this grid.</div>
+		<div>I'm a div, just like my previous ones.</div>
+		<div>I'm a paragraph, still occupying the same space as divs.</div>
+		<div>I'm the 5th child, appearing in a new line.</div>
+		<div>Then we continue on.</div>
+		<div>I am the 7th child.</div>
+	</section>
+</body>
+</html>
