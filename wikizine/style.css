@@ -153,3 +153,9 @@ html {
 .back-to-top:hover span {
 	transform: translateY(-4px)
 }
+
+img {
+  display: block;
+  max-width: 100%;
+  margin-bottom: 2.75em;
+}
