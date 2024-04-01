@@ -6,8 +6,8 @@ let wave = document.getElementById('wave');
 
 window.addEventListener('scroll', function(){
       let value = window.scrollY;
-      stars.style.left = value * 0.1 + 'px';
-      wave.style.top = value * 0.7 + 'px';
+      stars.style.left = value * 0.3 + 'px';
+      wave.style.top = value * 0.75 + 'px';
       })
 
 
