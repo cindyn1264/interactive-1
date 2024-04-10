@@ -13,8 +13,8 @@ body {
 
 .star {
   position: absolute;
-  width: 75px;
-  height: 75px;
+  width: 95px;
+  height: 95px;
   background-color: #f8f3a6;
   clip-path: polygon(50% 0%, 61% 35%, 98% 35%, 68% 57%, 79% 91%, 50% 70%, 21% 91%, 32% 57%, 2% 35%, 39% 35%);
   animation-timing-function: linear;

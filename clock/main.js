@@ -14,3 +14,4 @@ function updateStars() {
 }
 
 setInterval(updateStars, 1000);
+
