@@ -544,3 +544,49 @@ li {
 	top: 45.5vh;
 	left: 45.5vw;
 }
+.january div.thirteenth {
+	font-family: helvetica;
+	color: #be7990;
+	font-size: 11px;
+	text-align: left;
+	position: fixed;
+	top: 40vh;
+	left: 75vw;
+}
+.january div.fourteenth {
+	font-family: helvetica;
+	color: #be7990;
+	font-size: 11px;
+	text-align: right;
+	position: fixed;
+	top: 40vh;
+	right: 27vw;
+}
+.january div.fifteenth {
+	font-family: helvetica;
+	color: #be7990;
+	font-size: 6px;
+	text-align: right;
+	position: fixed;
+	top: 80vh;
+	right: 27vw;
+}
+.january div.sixteenth {
+	font-family: helvetica;
+	color: #be7990;
+	font-size: 6px;
+	text-align: left;
+	position: fixed;
+	top: 80vh;
+	left: 75vw;
+}
+.january div.seventeenth {
+	font-family: helvetica;
+	color: #be7990;
+	font-size: 6px;
+	text-align: left;
+	position: fixed;
+	top: -77vh;
+	left: -25vw;
+	transform: rotate(-90deg);
+}
