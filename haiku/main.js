@@ -29,3 +29,14 @@ window.addEventListener('scroll', function() {
 
       text.style.color = hexColor;
 });
+
+
+// Phrase change when cursor hovers over
+
+      function changeText(element) {
+            element.textContent = "We sail together.";
+      }
+
+      function resetText(element) {
+            element.textContent = "I sail all alone.";
+      }

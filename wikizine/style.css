@@ -14,7 +14,7 @@
 
 body {
 	min-height: 100vh;
-	background: linear-gradient(#42326e,#7597de);
+	background: #42326e;
 	overflow-x: hidden;
 }
 
@@ -74,7 +74,7 @@ section img {
 	pointer-events: none;
 }
 
-section::before
+section::before 
 {
 	content: '';
 	position: absolute;
@@ -101,21 +101,21 @@ section img#stars{
 	z-index: 9;
 }
 
-.sec 
+.grid-container 
 {
 	position: relative;
 	padding: 100px;
 	background: #42326e;
 }
 
-.sec h2
+.grid-container h2
 {
 	font-size: 3.5em;
 	margin-bottom: 10px;
 	color: #FFFFFF;
 }
 
-.sec p 
+.grid-container p 
 {
 	font-family: verdana;
 	font-size: 1em;
@@ -123,7 +123,10 @@ section img#stars{
 	line-height: 1.5em;
 	color: #FFFFFF;
 	margin-bottom: 75px;
+	margin: 0;
+	padding: 10px;
 }
+
 
 /* Scroll To Top Button (referenced from video: https://www.youtube.com/watch?v=fYGe-SuFAHU&ab_channel=TylerPotts) */
 
@@ -160,3 +163,4 @@ img {
   max-width: 100%;
   margin-bottom: 2.75em;
 }
+
