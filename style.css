@@ -94,6 +94,10 @@ header ul li a:hover
 
 /* PROJECT BUTTONS */
 
+.project {
+	horizontal-align: center;
+}
+
 #btn1 
 	{
 		text-decoration: none;
