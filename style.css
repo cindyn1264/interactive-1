@@ -13,9 +13,9 @@
 }
 
 body{
-	min-height: 100vh;
+	min-height: 75vh;
 	overflow-x: hidden;
-	background: linear-gradient(#8675b5,#69579b);
+	background: linear-gradient(#d07e6e,#69579b);
 }
 
 header
@@ -177,7 +177,6 @@ header ul li a:hover
 		z-index: 1000;
 		transform: translateY(-75vh) translateX(19vw);
 	}
-
 
 /* SCROLL TO TOP BUTTON */
 
