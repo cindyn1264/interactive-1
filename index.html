@@ -1,0 +1,67 @@
+<!doctype html>
+<html>
+	<head>
+		<title>Cindy's Interactive 1 Projects</title>
+		<link href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet">
+		<link rel="stylesheet" type="text/css" href="style.css">
+	</head>
+	<body>
+		<header>
+
+			<a href="#" class="back-to-top"> 
+			<span class="material-icons">keyboard_arrow_up</span>
+			</a>
+
+			<ul>
+			 <li><a href='list-poetry/index.html'>List Poetry</a></li>
+			 <li><a href='flags/index.html'>Flags</a></li>
+			 <li><a href='musica-viva/index.html'>Musica Viva</a></li>
+			 <li><a href='wikizine/index.html'>Wikizine</a></li>
+			 <li><a href='haiku/index.html'>Haiku</a></li>
+			 <li><a href='clock/index.html'>Clock</a></li>
+			</ul>
+		</header>
+
+		<section class="home">
+			<img src="stars.png" id="stars">
+			<img src="mountain1.png" id="mountain1">
+			<h2 id="text">Cindy's Interactive 1 Projects</h2>
+			<img src="cloud1.png" id="cloud1">
+			<img src="mountain2.png" id="mountain2">
+			<img src="cloud2.png" id="cloud2">
+			<img src="cloud3.png" id="cloud3">
+		</section>
+
+		<section class="projects">
+			<a href="list-poetry/index.html" id="btn1">List Poetry</a>
+			<a href="flags/index.html" id="btn2">Flags</a>
+			<a href="musica-viva/index.html" id="btn3">Musica Viva</a>
+			<a href="wikizine/index.html" id="btn4">Wikizine</a>
+			<a href="haiku/index.html" id="btn5">Haiku</a>
+			<a href="clock/index.html" id="btn6">Clock</a>
+		</section>
+
+		<script>
+			let stars = document.getElementById('stars');
+			let mountain1 = document.getElementById('mountain1');
+			let text = document.getElementById('text')
+			let cloud1 = document.getElementById('cloud1');
+			let mountain2 = document.getElementById('mountain2');
+			let cloud2 = document.getElementById('cloud2');
+			let cloud3 = document.getElementById('cloud3');
+			let grass = document.getElementById('grass');
+
+			window.addEventListener('scroll', function(){
+				let value = window.scrollY;
+				stars.style.left = value * 0.1 + 'px';
+				mountain1.style.top = value * 0.3 + 'px';
+				cloud1.style.top = value * 0.25 + 'px';
+				mountain2.style.bottom = value * 1 + 'px';
+				cloud2.style.top = value * 0.05 + 'px';
+				cloud3.style.bottom = value * 0.3 + 'px';
+			})
+		</script>
+
+	</body>
+</html>
