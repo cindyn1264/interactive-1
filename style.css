@@ -92,6 +92,10 @@ header ul li a:hover
 		z-index: 9;
 	}
 
+#stars {
+	opacity: 65%;
+}
+
 /* PROJECT BUTTONS */
 
 #btn1 
